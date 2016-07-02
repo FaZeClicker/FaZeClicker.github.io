@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home // FaZe Clicker</title>
+  </head>
+  <body>
+    <center><h1><a href="home">FaZe Clicker</a></h1></center>
+    <ul>
+      <ul>Website Contents:</ul>
+      <li><a href="home">Homepage</a></li>
+      <li><a href="play">Play FaZe Clicker!</a></li>
+      <li><a href="about">About FaZe Clicker</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+  </body>
+</html>
