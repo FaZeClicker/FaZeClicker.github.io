@@ -1,8 +1,0 @@
-    RewriteEngine on
-RewriteBase /
-RewriteCond %{https://fazeclicker.github.io/home} !(\.[^./]+)$
-RewriteCond %{REQUEST_fileNAME} !-d
-RewriteCond %{REQUEST_fileNAME} !-f
-RewriteRule (.*) /$1.html [L]
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTPS
-RewriteRule ^([^.]+)\.html$ https://fazeclicker.github.io/home$1 [R=301,L]
